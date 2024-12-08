@@ -1,6 +1,6 @@
 ## PREDICTING CUSTOMER CHURN FOR ENHANCED RETENTION STRATEGIES AT SYRIATEL TELECOMUNICATION
 
-
+https://github.com/Michdev2024/Moringa-phase-3-project/blob/main/photo%201.jpg
 ## Overview
 
 This project focuses on predicting customer churn for Syriatel, a leading telecommunication provider in Syria. **Customer churn**—when customers stop using a service—is a critical issue for the telecom industry. Understanding and addressing the factors that lead to churn can significantly improve customer retention and drive revenue growth.
