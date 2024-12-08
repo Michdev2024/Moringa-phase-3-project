@@ -95,8 +95,3 @@ This project demonstrates how machine learning can empower Syriatel to predict c
 
 ---
 
-## How to Run the Project
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/syriatel-churn-prediction.git
