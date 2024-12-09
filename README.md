@@ -1,6 +1,7 @@
 ## PREDICTING CUSTOMER CHURN FOR ENHANCED RETENTION STRATEGIES AT SYRIATEL TELECOMUNICATION
-
+### by Michelle Anyango
 ![image link](https://github.com/Michdev2024/Moringa-phase-3-project/blob/main/photo%201.jpg)
+
 
 ## Overview
 
