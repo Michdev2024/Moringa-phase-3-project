@@ -47,7 +47,22 @@ The dataset used in this project was sourced from [Kaggle's Churn in Telecoms Da
 2. **Identify Key Features**: Pinpoint the most influential factors driving churn.
 
 ---
+## Loading and cleaning data 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.preprocessing import StandardScaler
+from imblearn.over_sampling import SMOTE
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, recall_score
+from sklearn.metrics import roc_curve, auc
+from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
+from sklearn.tree import DecisionTreeClassifier
 
+---
 ## Approach
 
 1. **Exploratory Data Analysis (EDA)**: Understand trends, distributions, and relationships in the data.
@@ -74,6 +89,35 @@ The dataset used in this project was sourced from [Kaggle's Churn in Telecoms Da
 
 ---
 
+## Visualization 
+![image link](https://github.com/Michdev2024/Moringa-phase-3-project/blob/main/photo%204.png)
+Distribution of Numeric feature in the data set 
+
+---
+
+![image link](https://github.com/Michdev2024/Moringa-phase-3-project/blob/main/photo%206.png)
+ The bar graph shows the distribution of total minutes across various call categories "total eve minutes" and "total eve minutes"  being the two highest and "total intl minutes" being the lowest  
+
+ ---
+ 
+![image link](https://github.com/Michdev2024/Moringa-phase-3-project/blob/main/photo%207.png)
+The heatmap shows correlation of the different elements 
+
+---
+## Conclusion
+
+The churn prediction analysis conducted for SyriaTel aimed to build a reliable classifier to identify customers at risk of terminating their services. Through extensive data exploration, preparation, and modeling, several key insights emerged:
+
+- **Model Performance**: Random Forest demonstrated the highest effectiveness for churn prediction, outperforming Logistic Regression and Decision Trees. Its superior accuracy and predictive power make it the ideal choice for SyriaTel's churn prediction system.
+
+- **Key Predictive Features**: Total day minutes, customer service calls, and subscription to the international plan were identified as the most significant indicators of churn. These insights can help SyriaTel design proactive retention strategies focused on high-risk customers.
+
+
+This project demonstrates how machine learning can empower Syriatel to predict churn and implement data-driven retention strategies. By prioritizing the identified key features and acting on the recommendations, Syriatel can significantly reduce customer churn and foster long-term relationships.
+
+
+---
+
 ## Recommendations
 
 1. **Enhance Customer Experience**:
@@ -89,11 +133,6 @@ The dataset used in this project was sourced from [Kaggle's Churn in Telecoms Da
 4. **Continuously Monitor Trends**:
    - Regularly update models and churn analysis to stay aligned with customer behavior and market dynamics.
 
----
-
-## Conclusion
-
-This project demonstrates how machine learning can empower Syriatel to predict churn and implement data-driven retention strategies. By prioritizing the identified key features and acting on the recommendations, Syriatel can significantly reduce customer churn and foster long-term relationships.
 
 ---
 ![image link](https://github.com/Michdev2024/Moringa-phase-3-project/blob/main/photo%203.jpg)
